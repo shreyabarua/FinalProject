@@ -1,0 +1,64 @@
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Alegreya SC'
+}
+
+#a0l {
+  color: #324376;
+}
+
+a:link {
+    color: #CB3434;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: #A03C39;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+tr, td {
+  padding: 20px;
+}
+
+tr {
+  font-size: 20px;
+}
+
+th {
+  font-family: 'Amita';
+}
+
+td {
+  font-size: 18px;
+}
+
+div.table {
+  background-color: #F4E4DE;
+}
+
+div.learnMore {
+  padding: 30px;
+  background-color: #D6F5E4;
+}
+
+/*
+#DonateNow {
+  postion: absolute; left: 133; bottom: 29px; background-color: Transparent; top: 100px;
+  border: none; font-size: 50px; color: red;; font-family: serif; outline: none;
+}
+#DonateNow:hover{
+  font-size: 60px;
+}*/
