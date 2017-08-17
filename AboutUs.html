@@ -10,6 +10,48 @@
 <html>
 <head>
 <style>
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+  background-image: url("clima.jpg");
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+</style>
+<style>
 
 html {
   box-sizing: border-box;
@@ -37,12 +79,17 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
+.container1 {
   padding: 0 16px;
+  width: 25%;
+}
+.container2 {
+  width: 100% !important;
 }
 
 .title {
   color: grey;
+  width:100%;
 }
 
 .button {
@@ -54,12 +101,42 @@ html {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 25%;
+  width: 100%;
 }
 
 .button:hover {
   background-color: #555;
 }
+</style>
+     <style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
 </style>
 </head>
 <body>
@@ -79,11 +156,11 @@ html {
   <div class="column">
     <div class="card">
       <img src="shreya.jpg" alt="Shreya" class="img-circle" width="304" height="236">
-      <div class="container">
+      <div class="container2">
         <h2>Shreya Barua</h2>
         <p class="title">Clarkston High School</p>
-        <p>Bio</p>
-        <div class="container">
+        <p>I am 17 years old and I am currently a rising senior. I really enjoy teaching, cooking and coding. I applied to Girls Who Code because I took a coding class in school and I didnt like it very much. The class consisted of only guys so I thought that changing my surroundings might make the difference. Now that I am a part of a program with more girls I can say that I am definitely more engaged, interested and involved.</p> 
+        <div class="container2">
         <p> Contact Me: shreyabarua2@gmail.com </p>
         <script type="text/javascript"></script>
         <button class="button" onclick="window.open('https://www.linkedin.com/in/shreya-barua-966769147/')" >LinkedIn</button>
@@ -95,11 +172,11 @@ html {
   <div class="column">
     <div class="card">
       <img src="dog.jpg" alt="dog" class="img-circle" width="275" height="236">
-      <div class="container">
-        <h2>Nalini Ramdeo</h2>
-        <p class="title">Townsend Harris High School</p>
-        <p>I am 17 years old and I am currently a junior. Some of my hobbies include dancing, swimming and playing the violin. I joined Girls Who Code because I am very passionate about closing the gender gap and also getiing more familiar with more aspects of computer science since I am very interested in pursuing a career involving it.</p>
-        <div class="container">
+      <div class="container2">
+        <h2 width="100%">Nalini Ramdeo</h2>
+        <p width="100%" class="title">Townsend Harris High School</p>
+        <p width="100%">I am 17 years old and I am currently a junior. Some of my hobbies include dancing, swimming and playing the violin. I joined Girls Who Code because I am very passionate about closing the gender gap and also getiing more familiar with more aspects of computer science. I am very interested in pursuing a career involving compsci because I see it very applicable to our current world.</p>
+        <div>
         <p> Contact Me: naliniramdeo1068@gmail.com </p>
         <script type="text/javascript"></script>
         <button class="button" onclick="window.open('https://www.linkedin.com/in/nalini-r-86b142122/')" >LinkedIn</button>
@@ -111,12 +188,12 @@ html {
   <div class="column">
     <div class="card">
       <img src="josephine.jpg" alt="Josephine" class="img-circle" width="304" height="236">
-      <div class="container">
+      <div class="container2">
         <h2>Josephine Leung</h2>
         <p class="title">Midwood High School</p>
-        <p>Bio</p>
-        <div class="container">
-        <p> Contact Me:</p>
+        <p>I am 17 years old and currently a rising senior. I spend a lot of my time volunteering, running, and cooking. I joined Girls Who Code because I was interested in learning how to code since it was directly connected to cyber security. I thought it would be a fun and a fascinating way to expand my skills involving computer science so I would be able to use it in a variety of applications.</p>
+        <div>
+        <p> Contact Me: josephineleung123@gmail.com</p>
          <script type="text/javascript"></script>
         <button class="button" onclick="window.open('https://www.linkedin.com/in/nalini-r-86b142122/')" >LinkedIn</button>
         <script type="text/javascript"></script>
@@ -128,16 +205,48 @@ html {
   <div class="column">
     <div class="card">
       <img src="bella.jpg" alt="Bella" class="img-circle" width="304" height="236">
-      <div class="container">
+      <div class="container2">
         <h2>Bella Achu</h2>
         <p class="title">Fiorello H. LaGuardia High School</p>
-        <p>Bio</p>
-         <div class="container">
+        <p>I am 16 years old and right now I am a sophmore. My favorite things to do include singing, dancing, acting, modeling, running, and playing the piano and alto sax. I really wanted to be a part of the Girls Who Code sisterhood because I saw it as a great oppportunity to learn something new and expand my horizons. I had no coding experience prior to this and i really wanted to experience something apart from what i was used to. </p>
+         <div class="container2">
+         <p> Contact Me: bellaachu23@gmail.com </p>
          <script type="text/javascript"></script>
         <button class="button" onclick="window.open('https://www.linkedin.com/in/bella-achu-571a89146/')" >LinkedIn</button>
         <script type="text/javascript"></script>
       </div>
     </div>
   </div>
+  </div>
+  </div>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="hero-image">
+  <div class="hero-text">
+     <h5>JOIN US IN THE FIGHT TO END <br> CLIMATE CHANGE </h5>
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/climahelp/?hl=ens" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-twitter"></a>
+
+<div>
+<p> &copy; Copyright 2017. All rights reserved. </p>
+<img src="adobelogo.png" style="width:70px;height:40px;">
+<img src="GWC.png" style="width:70px;height:50px;">
+
+</div>
+
+
+  </div>
+</div>
 </body>
 </html>
+
+
