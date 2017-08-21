@@ -1,0 +1,55 @@
+<body>
+
+<link href="geoblog.css" rel="stylesheet"/>
+<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Bahiana' rel='stylesheet'>
+<div class = "title">
+  <div class = "titletext">
+  <h1><u>Our Blog</u></h1>
+  <h6>Inside the Fight Against Climate Change</h6>
+</div>
+</div>
+
+  <div class= "blog_input">
+<form method="POST" action="/blog">
+
+        <br>
+        <input type="text" name="name" required placeholder="Name">
+        <br>
+
+        <br>
+        <input type="text" name="location" required placeholder="Location">
+        <br>
+
+        <br>
+        <input type="text" name="title" required placeholder="Title of Your Blog Post">
+        <br>
+
+        <br>
+        <textarea name="entry" rows="10" cols="50" required placeholder="Add your blog entry here"></textarea>
+        <br>
+
+        <input type="submit" value="P O S T">
+</form>
+  </div>
+
+<div class = "posts">
+<br>
+{{#each posts as |post|}}
+<div class = "postbox">
+  <div class = "words">
+    <h2>{{post.title}}</h2>
+    <h3>{{post.entry}}</h3>
+    <h5>{{post.name}} from   {{#if location}}
+          <i>{{post.location}}</i>
+on
+    {{/if}}
+    {{post.date}}</h5>
+  </div>
+</div>
+<br>
+<!-- <br>
+<br> -->
+{{/each}}
+</div>
+</body>
