@@ -3,17 +3,73 @@
   <title>The Issue</title>
 
   <style>
-  body {
-    background-color: gray;
+  /*navbar begins*/
+  #issues{background-color: Transparent; border:none;
+      background-color: Transparent; border:none;
+      font-size: 50px; color:white; font-family:serif;
+      outline: none;}
+      #issues.hover{font-size: 60px;}
+
+
+      #nav{
+        background-color: #212323; opacity: 0.5; filter: alpha(opacity=50);
+        height:80px ;
+      }
+
+
+      .webname{
+        font-family: serif;
+        font-size: 40px;
+
+       margin-bottom: 0px
+
+      }
+      .navbtn{
+        outline: none;
+        margin-left:100px;
+        margin-top: 15px;
+        font-size: 25px;
+        position: absolute; right:60; bottom: 4px;
+       font-family:serif;
+        outline: none;}
+        .navbtn:hover{font-size: 30px;}
+      }
+      .navbar{
+        outline: none;
+        border: none;
+        position: fixed;
+
+      }
+      .navbar-brand{
+        font-size: 40px;
+        font-family:serif;
+         margin-top: 14px;
+
+      }
+      /*navbar ends*/
+
+/* parallax begins*/
+  body, html {
+    height: 100%
   }
 
-   h1 {
-     font-size: 100px;
-   }
+  .parallax {
+    background-image:url(https://media.giphy.com/media/uTKMak6CjKvx6/giphy.gif);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+/*parallax ends*/
+
+
+/*info for the body begins*/
    h2 {
      font-family: 'Adamina';
      text-align: center;
-     font-size:70px;
+     font-size:30px;
    }
 
    p.double {border-style: double;}
@@ -78,24 +134,82 @@
   height: 100%;
   width: 58%;
 }
+
+#info4 {
+  float: left;
+  height: 100%;
+  width: 58%;
+}
+
+#pic4 {
+  float: right;
+  height: 100%;
+  width: 40%;
+}
+
+#pic5 {
+  float: left;
+  height:100%;
+  width: 50%;
+}
+
+#info5 {
+  float: right;
+  height: 100%;
+  width: 48%;
+}
+
 .double{
   border: 5px double black;
   height: 97%;
   width: 100%;
 }
+/* info for the body ends */
   </style>
 </head>
 
+  <body  id= "BG">
 
-  <body>
     <link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
-    <div style="background-image:url(https://media.giphy.com/media/SstzNLEgrOjBu/giphy.gif); height:92%; width:100%; bacground-size:cover;"> </div>
+
+<!-- nav bar body begins-->
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <nav id= "nav"
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">The Geo Effect</a>
+    </div>
+    <ul class="nav navbar-nav" >
+      <li class="dropdown navbtn"><a class="dropdown-toggle" data-toggle="dropdown" href="#get" >The Issue<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="./issues/gwcindex.html">Climate Change</a></li>
+          <li><a href="./googleapi.html">GOOGLE API</a></li>
+        </ul>
+      </li>
+      <li class="navbtn"><a href="./donate.html">Donate</a></li>
+      <li class="navbtn"><a href="./">Blog</a></li>
+      <li class="navbtn"><a href="./AboutUs.html">About Us</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- nav bar body ends -->
+<!-- parallax begins -->
+    <div class="parallax"></div>
+    <div style="height:1000px;background-color:white;font-size:16px;">
+<!-- parallax ends -->
     <br>
+<!-- info begins -->
     <div class="container">
       <img id="pica" src="world1.jpg">
       <div id="info"> <div class="double"> <center> Climate change is the drastic difference in an area’s typical temperature over time. Human activity is a major contributor to this change. </center> </div> </div>
       <img id="picb" src="world2.jpg">
-    <div>
+    </div>
     <br>
     <div class="container">
       <img id="pic1" src="deforestation.jpg">
@@ -104,18 +218,27 @@
     </div>
     <br>
     <div class="container">
-      <div id="info2"><div class="double"> Snow and ice have melted because of the increase in Earth’s temperature, thus causing sea levels to rise. According to the Environmental Protection Agency, the global sea level has risen between 6 to 8 inches in the last century. If sea levels were to rise more than 6 feet, most major cities including New York City would be at risk.
- </div> </div>
-      <img id="pic2" src="test5.jpg">
+      <div id="info2"><div class="double"> <center> Snow and ice have melted because of the increase in Earth’s temperature, thus causing sea levels to rise. According to the Environmental Protection Agency, the global sea level has risen between 6 to 8 inches in the last century. If sea levels were to rise more than 6 feet, most major cities including New York City would be at risk. Without ice sheets and ice caps, scientists would not be able learn about past changes in Earth’s climate. Ice sheets are made of layers of snow and ice that contain trapped gases, dust, and water molecules that have been collected over millions of years. </center> </div> </div>
+      <img id="pic2" src="sealevels.jpg">
     </div>
     <br>
     <div class="container">
-      <img id="pic3" src="test3.jpg">
-      <div id="info3"><div class="double"> josjosjsojsojsojsojsoj </div> </div>
+      <img id="pic3" src="cc4(ward hunt ice shelf).jpg">
+      <div id="info3"><div class="double"> <center> According to NASA, polar ice caps are melting at an alarming rate of 9% per decade. The thickness of the Arctic Ice has decreased 40% since the 1960s. Between 2003 and 2008, 2 trillion tons of ice in Greenland, Antarctica and Alaska have melted. Every second, 12,500 tons of water is added into our oceans. 	The Greenland ice sheet measures around 650,000 square miles. If all the ice melts, the sea will rise by 20 feet. Antarctica consists of about 90% of the world’s ice and approximately 70% it is fresh water. The Ward Hunt Ice Shelf - the largest block of ice in the Arctic - has been around for the last 3000 years. Nearly two decades ago, the shelf split and is now breaking into little pieces. </center> </div> </div>
+    </div>
+    <br>
+    <div class="container">
+      <div id="info4"><div class="double"> euds9jfcjfoadfj </div> </div>
+      <img id="pic4" src="test4.jpg">
+    </div>
+    <br>
+    <div class="container">
+      <img id="pic5" src="test5.jpg">
+      <div id="info5"><div class="double"> wdkeofjeojow </div> </div>
     </div>
 
-
-
+  </div>
+<!-- info ends -->
 
 </body>
 </html>
