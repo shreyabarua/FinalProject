@@ -1,0 +1,33 @@
+#nav{
+}
+
+.navbtn{
+  outline: none;
+  margin-left:50px;
+  margin-top: 15px;
+  font-size: 20px;
+  position: absolute; right:60; bottom: 4px;
+  font-family:serif;
+  outline: none;
+}
+
+.navbar{
+  outline: none;
+  border: none;
+  position: fixed;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  font-family:serif;
+   margin-top: 14px;
+}
+
+.nav-center {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: black;
+  height: 80px;
+  width: 100%;
+}

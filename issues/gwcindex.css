@@ -1,0 +1,185 @@
+/*navbar begins*/
+#issues {
+  background-color: Transparent;
+  border:none;
+  background-color: Transparent;
+  border:none;
+  font-size: 30px; color:white; font-family:serif;
+  outline: none;
+}
+
+.webname{
+  font-family: serif;
+  font-size: 40px;
+  margin-bottom: 0px
+}
+
+/* parallax begins*/
+body, html {
+  height: 100%
+}
+
+.parallax {
+  background-image:url('earth3.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+/*parallax ends*/
+/*info for the body begins*/
+h2 {
+  font-family: 'Adamina';
+  text-align: center;
+  font-size:30px;
+}
+
+p.double {border-style: double;}
+
+.container {
+  height:50vh;
+  width: 100%;
+}
+
+.verticallyalign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info {
+  float: left;
+  height: 90%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  width: 15%;
+}
+
+#pic1 {
+  float: left;
+  height: 100%;
+  width: 58%;
+}
+
+#info1 {
+  float: right;
+  height: 100%;
+  width: 40%;
+}
+
+#info2 {
+  float: left;
+  height: 100%;
+  width: 50%
+}
+
+#pic2 {
+  float: right;
+  height: 100%;
+  width: 48%;
+}
+
+#pic3 {
+ float: left;
+ height: 100%;
+ width: 40%;
+}
+
+#info3 {
+ float: right;
+ height: 100%;
+ width: 58%;
+}
+
+#info4 {
+ float: left;
+ height: 100%;
+ width: 58%;
+}
+
+#pic4 {
+ float: right;
+ height: 100%;
+ width: 40%;
+}
+
+#pic5 {
+  float: left;
+  height:100%;
+  width: 45%;
+}
+
+#info5 {
+  float: right;
+  height: 100%;
+  width: 50%;
+}
+
+.double{
+  border: 5px double black;
+  height: 97%;
+  width: 100%;
+}
+/*Footer starts here*/
+.hero-image {
+  background-image: url("clima.jpg");
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
