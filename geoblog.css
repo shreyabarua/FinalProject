@@ -1,0 +1,68 @@
+div.posts {
+  background-image: url("blogbgimg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.postbox {
+  background-color: #DCCFEC;
+  opacity: 0.6;
+  margin-left: 18%;
+  margin-right: 18%;
+  color: black;
+}
+
+div.words {
+}
+
+div.titletext {
+  width: 40%;
+  margin: auto;
+  border-style: double;
+  border-color: white;
+  /*padding-top: 1%;*/
+}
+div.title {
+  background-color: #061424;
+  color: white;
+  width: 100%;
+  height: 370px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+div.blog_input {
+  height: 340px;
+  background-color: #4C5F75;
+}
+
+h1{
+  font-family: 'Cinzel Decorative';
+  font-size: 80px;
+}
+
+h6 {
+  font-size: 25px;
+  font-family: 'Bahiana';
+}
+div {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+h3, h2 {
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
+  text-align: center;
+}
