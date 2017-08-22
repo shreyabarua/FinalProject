@@ -19,16 +19,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 
 app.get('/', function(req, res) {
-    // res.sendFile(__dirname + '/finalproject.html');
-    res.render('blog', {posts: []});
-});
-
-app.get('/projectCode.html', function(req, res) {
-    res.sendFile(__dirname + '/projectCode.html')
+    res.sendFile(__dirname + '/finalproject.html')
 });
 
 app.get('/blog', function(req, res) {
     Post.find({}, function(err, posts) {
+        posts.reverse();
         res.render('blog', {posts: posts});
     });
 });
