@@ -50,11 +50,11 @@
       outline: none;
       margin-left:100px;
       margin-top: 15px;
-      font-size: 25px;
+      font-size: 20px;
       position: absolute; right:60; bottom: 4px;
      font-family:serif;
       outline: none;}
-      .navbtn:hover{font-size: 30px;}
+      .navbtn:hover{font-size: 25px;}
     }
     .navbar{
       outline: none;
@@ -63,9 +63,10 @@
 
     }
     .navbar-brand{
-      font-size: 40px;
+      font-size: 25px;
       font-family:serif;
        margin-top: 14px;
+       margin-left: 14px;
 
     }
 
@@ -96,23 +97,21 @@
 <nav id= "nav">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">The Geo Effect</a>
+    <div class="navbar-header" style="margin-left:75px;">
+      <a class="navbar-brand" href="#" stlye="position:fixed" >Home</a>
     </div>
-    <ul class="nav navbar-nav" >
-      <li class="dropdown navbtn"><a class="dropdown-toggle" data-toggle="dropdown" href="#get" >The Issue<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="./issues/gwcindex.html">Climate Change</a></li>
-          <li><a href="./googleapi.html">GOOGLE API</a></li>
-        </ul>
-      </li>
+    <ul class="nav navbar-nav" stlye="position:fixed" >
+      <li class="navbtn"><a href="./issues/gwcindex.html">Climate Change</a></li>
+      <li class="navbtn"><a href="./googleapi.html">Google API</a></li>
       <li class="navbtn"><a href="./donate.html">Donate</a></li>
       <li class="navbtn"><a href="./blog.hbs">Blog</a></li>
-      <li class="navbtn"><a href="./AboutUs.html">About Us</a></li>
+      <li class="navbtn"><a href="./AboutUs.html">Meet The Team</a></li>
     </ul>
   </div>
 </nav>
 </nav>
+
+
 
 <div class=" w3-display-container"  style="height:100vh">
 <img class="mySlides" src="TGE.jpg" style="width:100%">
