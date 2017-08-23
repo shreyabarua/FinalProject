@@ -1,4 +1,15 @@
+#issues{background-color: Transparent; border:none;
+    background-color: Transparent; border:none;
+    font-size: 50px; color:white; font-family:serif;
+    outline: none;}
+    #issues.hover{font-size: 60px;}
 
+
+    .webname{
+      font-family: serif;
+      font-size: 40px;
+      margin-bottom: 0px
+    }
 
 #videoBlock {
   width: 100%;
