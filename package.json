@@ -9,7 +9,6 @@
   },
   "engines": {
     "node": "7.4.0",
-    "npm": "3.10.3"
   },
   "repository": {
     "type": "git",
@@ -22,9 +21,9 @@
   },
   "homepage": "https://github.com/shreyabarua/FinalProject#readme",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
-    "handlebars": "^4.0.10",
     "hbs": "^4.0.1",
     "mongoose": "^4.11.8"
   }
