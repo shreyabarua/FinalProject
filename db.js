@@ -13,7 +13,9 @@ const Post = new mongoose.Schema({
 
 mongoose.model("Post", Post);
 
-var urlstring = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || process.envMONGOLAB_CHARCOAL_URI;
+var urlstring = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || process.envMONGOLAB_CHARCOAL_URI
+|| 'mongodb:shreyabarua2:password@ds159033.mlab.com:59033/the-geo-effect';
+
 var port = process.env.port || 5000;
 
 mongoose.connect(urlstring, function(err, res){
