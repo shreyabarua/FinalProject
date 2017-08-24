@@ -1,0 +1,78 @@
+p {
+	text-align: center;
+	font-size: 25px;
+	font-family: "Tinos";
+}
+
+h5 {
+	bottom: auto;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+div.missionpic {
+	width:100%;
+	height:50%;
+	background-image: url("mission.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+div.theissue, div.donate, div.blog, div.api, div.aboutus {
+	width: 18%;
+	float: left;
+	height: 28%;
+	margin-right: 2%;
+}
+
+div.theissue {
+	background-image: url("theissue.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+div.donate {
+	background-image: url("donatelink.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+div.blog {
+	background-image: url("bloglink.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+div.api {
+	background-image: url("apilink.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+div.aboutus {
+	background-image: url("aboutuslink.jpg.jpeg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+div.theissue:hover {
+	opacity: 0.8;
+}
+
+div.api:hover {
+	opacity: 0.8;
+}
+
+div.blog:hover {
+	opacity: 0.8;
+}
+
+div.donate:hover {
+	opacity: 0.8;
+}
+
+div.aboutus:hover {
+	opacity: 0.8;
+}

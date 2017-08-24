@@ -1,0 +1,30 @@
+{
+  "name": "the-geo-effect",
+  "version": "1.0.0",
+  "description": "Climate change awareness webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.7.0",
+    "npm": "3.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyabarua/FinalProject.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shreyabarua/FinalProject/issues"
+  },
+  "homepage": "https://github.com/shreyabarua/FinalProject#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "handlebars": "^4.0.10",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.11.8"
+  }
+}

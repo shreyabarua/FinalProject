@@ -12,4 +12,16 @@ const Post = new mongoose.Schema({
 });
 
 mongoose.model("Post", Post);
-mongoose.connect('mongodb://localhost/GWC')
+
+var urlstring = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || process.envMONGOLAB_CHARCOAL_URI;
+var port = process.env.port || 5000;
+
+mongoose.connect(urlstring, function(err, res){
+  if (err){
+    console.log("ERROR conncting to " + urlstring + "." + err);
+  }
+
+  else {
+    console.log('Connected to  ' + urlstring);
+  }
+});
