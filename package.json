@@ -7,9 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "7.4.0",
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shreyabarua/FinalProject.git"
@@ -20,6 +18,9 @@
     "url": "https://github.com/shreyabarua/FinalProject/issues"
   },
   "homepage": "https://github.com/shreyabarua/FinalProject#readme",
+  "engines": {
+    "node": "7.4.0",
+  },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "body-parser": "^1.17.2",
