@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/shreyabarua/FinalProject#readme",
   "engines": {
-    "node": "7.4.x",
+    "node": "7.4.x"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
